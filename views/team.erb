@@ -7,8 +7,8 @@
  <body>
    <h1>Create a Basketball Team!</h1>
    
-        <p>Team name: <input type="text" name='name'></p>
-        <p>Coach: <input type="text" name="coach"></p>
+        <p>Team Name: <%=  name='name'></p>
+        <p>Coach: <%= name="coach"></p>
         <p>Point Guard: <input type="text" name='pg'></p>
         <p>Shooting Guard: <input type="text" name='sg'></p>
         <p>Power Forward: <input type="text" name='pf'></p>
@@ -16,6 +16,8 @@
         <p>Center: <input type="text" name='c'></p>
         <input type="submit">
       </form>
+
+# <h1>Team Name: <%= @name %></h1>
 
  </body>
 </html>
