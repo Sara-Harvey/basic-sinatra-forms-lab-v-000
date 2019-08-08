@@ -15,7 +15,7 @@ post '/team' do
   @sf = params[:sf]
   @c = params[:c]
   
-  
+  erb :team
 end
 
 end
