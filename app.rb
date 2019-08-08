@@ -14,6 +14,8 @@ post '/team' do
   @pf = params[:pf]
   @sf = params[:sf]
   @c = params[:c]
+  
+  
 end
 
 end
