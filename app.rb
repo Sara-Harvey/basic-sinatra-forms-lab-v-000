@@ -12,7 +12,7 @@ post '/team' do
   @pg = params[:pg]
   @sg = params[:sg]
   @pf = params[:pf]
-  params[:coach]
+  @sf = params[:sf]
 end
 
 end
