@@ -9,9 +9,6 @@ class App < Sinatra::Base
 post '/team' do
   @name = params[:name]
   @coach = params[:coach]
-  "My name is #{params[:name]}, and I love #{params[:favorite_food]}"
 end
-
-Create a route that responds to a POST request at /team Have the form send a POST request to this route. Upon submission, pass the submitted data to the team.erb template.
 
 end
